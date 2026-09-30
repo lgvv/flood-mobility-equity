@@ -1,0 +1,86 @@
+{
+  "district_count": 252,
+  "stops": {
+    "raw_rows": 227065,
+    "corrected_swaps": 6,
+    "invalid_coordinates": 6,
+    "valid_rows": 227059,
+    "sha256": "1db7e5d0cdc541e86a957b7584f2ddf8e4b1d29b02594984a01c5752ac13af06"
+  },
+  "stop_district_join": {
+    "points": 227059,
+    "district_matched": 227010,
+    "district_unmatched": 49
+  },
+  "facility_district_join": {
+    "points": 105521,
+    "district_matched": 105521,
+    "district_unmatched": 0
+  },
+  "flood": {
+    "regions": [
+      {
+        "archive": "RFM_SAREA_NTN_1_100.zip",
+        "sha256": "abf0a9ee01d666743c65960ad88fb58d8ea053b311c70f50da16009d4ba1eb91",
+        "polygons": 5,
+        "crs": "EPSG:5186",
+        "frequency": "100",
+        "invalid_geometries": 0,
+        "polygon_parts": 419248,
+        "flooded_stops_cumulative": 3704,
+        "flooded_facilities_cumulative": 5249
+      },
+      {
+        "archive": "RFM_SAREA_NTN_2_100.zip",
+        "sha256": "8954d55dc93e2a98b35d0708dc193079b698967f6ed2adaaa1434c72b3204c95",
+        "polygons": 5,
+        "crs": "EPSG:5186",
+        "frequency": "100",
+        "invalid_geometries": 0,
+        "polygon_parts": 631795,
+        "flooded_stops_cumulative": 8338,
+        "flooded_facilities_cumulative": 7495
+      },
+      {
+        "archive": "RFM_SAREA_NTN_3_100.zip",
+        "sha256": "2a8fbb6ad8f44b5c60de8ba9b9215946334baa3c5a0b626de3459293a7c3e239",
+        "polygons": 5,
+        "crs": "EPSG:5186",
+        "frequency": "100",
+        "invalid_geometries": 0,
+        "polygon_parts": 1835848,
+        "flooded_stops_cumulative": 9827,
+        "flooded_facilities_cumulative": 7779
+      },
+      {
+        "archive": "RFM_SAREA_NTN_4_100.zip",
+        "sha256": "f8e7fb770a400f89328ec57b17794954fd428d6463a18fc8f89d2df28bb3547a",
+        "polygons": 5,
+        "crs": "EPSG:5186",
+        "frequency": "100",
+        "invalid_geometries": 0,
+        "polygon_parts": 219056,
+        "flooded_stops_cumulative": 10001,
+        "flooded_facilities_cumulative": 7875
+      },
+      {
+        "archive": "RFM_SAREA_NTN_5_100.zip",
+        "sha256": "c8e837df659de2af9177815f5385a226912e68cc9ae781669078017e7f5450d6",
+        "polygons": 5,
+        "crs": "EPSG:5186",
+        "frequency": "100",
+        "invalid_geometries": 0,
+        "polygon_parts": 350786,
+        "flooded_stops_cumulative": 10452,
+        "flooded_facilities_cumulative": 7942
+      }
+    ]
+  },
+  "total_exposed_stops": 10452,
+  "total_exposed_facilities_all_types": 7942,
+  "total_exposed_selected_medical_sites": 5035,
+  "districts_with_exposed_stops": 145,
+  "districts_with_suppressed_older_cells": 5,
+  "population_source": "SGIS 2024 census estimates, 2025 Q2 boundaries; suppressed age cells bounded 0-4",
+  "interpretation": "Exposure is point intersection with a modelled national-river flood polygon, not observed closure or patient harm."
+}

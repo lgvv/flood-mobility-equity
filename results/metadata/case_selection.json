@@ -1,0 +1,29 @@
+{
+  "selection_frozen_before_network_analysis": true,
+  "minimum_valid_stops_for_rate_ranking": 100,
+  "selected": [
+    {
+      "code": "11160",
+      "reason": "Highest exposure rate among metropolitan districts with at least 100 valid stops; also high absolute exposure and medical-site exposure."
+    },
+    {
+      "code": "38070",
+      "reason": "Highest exposed-stop count among city/general-district class."
+    },
+    {
+      "code": "38520",
+      "reason": "Highest exposed-stop count and rate among county class; substantial older-population share."
+    }
+  ],
+  "alternatives": [
+    {
+      "code": "21120",
+      "reason": "Highest metropolitan exposed-stop count; lower older share and medical-site exposure than selected Seoul Gangseo."
+    },
+    {
+      "code": "38111",
+      "reason": "Highest city-class stop exposure rate but lower count and medical-site exposure than Gimhae."
+    }
+  ],
+  "selection_warning": "The classes compare administrative districts, not equally sized regions. Selection is descriptive and does not establish causal risk."
+}

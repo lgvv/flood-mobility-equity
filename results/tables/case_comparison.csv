@@ -1,0 +1,4 @@
+﻿district_code,district,valid_stops,exposed_stops,stop_exposure_percent,selected_medical_sites,exposed_medical_sites,dong_origins,represented_population,baseline_connected_population_coverage_percent,hospitals_in_buffer,baseline_20km_population,closure_20km_population,loss_20km_population,closure_major_disruption_population,closure_major_disruption_older_lower,closed_physical_road_km,bridge_intersecting_edges_kept
+11160,서울 강서구,859,392,45.63445867287544,810,442,20,543974,96.60884527569333,42,525527,287037,238490,272423,52126,521.3448555863754,252
+38070,경남 김해시,2545,407,15.99214145383104,487,41,19,549861,100.0,61,549861,549861,0,58521,8583,1013.7267249051258,641
+38520,경남 함안군,873,244,27.9495990836197,49,28,10,61675,100.0,39,61675,48736,12939,29763,9151,606.5974945671246,307

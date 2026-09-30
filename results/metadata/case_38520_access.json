@@ -1,0 +1,116 @@
+{
+  "district_code": "38520",
+  "road_graph_sha256": "2141a3a77d3f532cf028e248dabdf4ea577fbd7bae94b31114d0a18d46ab42b0",
+  "road_graph_nodes": 13557,
+  "road_graph_directed_edges": 34852,
+  "buffer_m": 8000,
+  "origin_snap_limit_m": 1500,
+  "all_origins": 10,
+  "accepted_origins": 10,
+  "all_origin_population": 61675,
+  "accepted_origin_population": 61675,
+  "origin_population_coverage": 1.0,
+  "median_origin_snap_m": 190.19883988418388,
+  "max_origin_snap_m": 687.8929336753187,
+  "all_nearby_broad_hospitals": 39,
+  "accepted_hospitals": 39,
+  "hospital_types": {
+    "병원": 33,
+    "종합병원": 5,
+    "상급종합": 1
+  },
+  "flood_exposed_accepted_hospitals": 0,
+  "hospital_snap_median": 42.853611996924585,
+  "flood_intersecting_bridge_edges_kept": 307,
+  "closed_directed_edges": 5099,
+  "closed_physical_segments": 2647,
+  "closed_physical_road_length_m": 606597.4945671246,
+  "restoration_beneficiary_origins": 4,
+  "major_disruption_rule": "Baseline reachable and then unreachable, or road-distance increase of at least 2 km and 50%.",
+  "flood_archives": [
+    {
+      "file": "RFM_SAREA_NTN_1_100.zip",
+      "sha256": "abf0a9ee01d666743c65960ad88fb58d8ea053b311c70f50da16009d4ba1eb91",
+      "parts": 419248,
+      "cumulative_intersecting_directed_edges": 0
+    },
+    {
+      "file": "RFM_SAREA_NTN_2_100.zip",
+      "sha256": "8954d55dc93e2a98b35d0708dc193079b698967f6ed2adaaa1434c72b3204c95",
+      "parts": 631795,
+      "cumulative_intersecting_directed_edges": 5406
+    },
+    {
+      "file": "RFM_SAREA_NTN_3_100.zip",
+      "sha256": "2a8fbb6ad8f44b5c60de8ba9b9215946334baa3c5a0b626de3459293a7c3e239",
+      "parts": 1835848,
+      "cumulative_intersecting_directed_edges": 5406
+    },
+    {
+      "file": "RFM_SAREA_NTN_4_100.zip",
+      "sha256": "f8e7fb770a400f89328ec57b17794954fd428d6463a18fc8f89d2df28bb3547a",
+      "parts": 219056,
+      "cumulative_intersecting_directed_edges": 5406
+    },
+    {
+      "file": "RFM_SAREA_NTN_5_100.zip",
+      "sha256": "c8e837df659de2af9177815f5385a226912e68cc9ae781669078017e7f5450d6",
+      "parts": 350786,
+      "cumulative_intersecting_directed_edges": 5406
+    }
+  ],
+  "baseline": {
+    "reachable_origins": 10,
+    "reachable_population": 61675,
+    "reachable_older_lower": 17827,
+    "within_20km_origins": 10,
+    "within_20km_population": 61675,
+    "within_20km_older_lower": 17827,
+    "median_finite_road_distance_km": 11.05093915551763
+  },
+  "road_closure": {
+    "reachable_origins": 8,
+    "reachable_population": 55472,
+    "reachable_older_lower": 14969,
+    "within_20km_origins": 7,
+    "within_20km_population": 48736,
+    "within_20km_older_lower": 12813,
+    "median_finite_road_distance_km": 12.38039655602925,
+    "major_disruption_origins": 4,
+    "major_disruption_population": 29763,
+    "major_disruption_older_lower": 9151
+  },
+  "road_and_facility_closure": {
+    "reachable_origins": 8,
+    "reachable_population": 55472,
+    "reachable_older_lower": 14969,
+    "within_20km_origins": 7,
+    "within_20km_population": 48736,
+    "within_20km_older_lower": 12813,
+    "median_finite_road_distance_km": 12.38039655602925,
+    "major_disruption_origins": 4,
+    "major_disruption_population": 29763,
+    "major_disruption_older_lower": 9151
+  },
+  "all_intersecting_roads_closure": {
+    "reachable_origins": 8,
+    "reachable_population": 55472,
+    "reachable_older_lower": 14969,
+    "within_20km_origins": 7,
+    "within_20km_population": 48736,
+    "within_20km_older_lower": 12813,
+    "median_finite_road_distance_km": 12.38039655602925,
+    "major_disruption_origins": 4,
+    "major_disruption_population": 29763,
+    "major_disruption_older_lower": 9151
+  },
+  "baseline_connected_population_coverage": 1.0,
+  "policy_budgets": [
+    0.01,
+    0.02,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "interpretation": "Static road-distance stress test. Entire simplified OSM edge closes if any part intersects mapped flood, except tagged bridges in the main scenario. No observed travel times, actual facility shutdowns, or repair costs. Administrative-dong populations are assigned to one representative point each."
+}
